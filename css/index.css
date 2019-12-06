@@ -21,4 +21,10 @@ p{
     text-align: center;
 }
 
+img{
+    position: relative;
+    left: 45%;
+    top: 20%;
+}
+
 
