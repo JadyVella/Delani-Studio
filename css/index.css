@@ -21,10 +21,17 @@ p{
     text-align: center;
 }
 
-img{
+.img1{
     position: relative;
     left: 45%;
-    top: 20%;
+    margin-bottom: 3%;
 }
+
+.img2{
+    position: relative;
+    left: 48%;
+}
+
+h1,p,
 
 
