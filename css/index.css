@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+#head1{
+    background-image: url('h_img.jpg');
+}
