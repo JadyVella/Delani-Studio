@@ -50,7 +50,22 @@ p{
 }
 
 #group1{
-    padding-top: 5%;
+    padding-top: 1%;
+    padding-left: 22%;
+
+}
+
+#group2{
+    padding-top: 1%;
+    padding-left: 22%;
+}
+
+.jpg2,.jpg3,.jpg4,.jpg5,.jpg6,.jpg7,.jpg8{
+    padding-left: 1%;
+}
+
+.jpg1{
+    padding-right: 1%;
 }
 
 
