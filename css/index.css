@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 h1{
@@ -16,6 +17,7 @@ h1{
     color: white;
     padding-bottom: 25%;
     padding-top: 15%;
+    overflow-y: hidden;
 }
 
 p{
@@ -45,8 +47,15 @@ p{
     padding-top: 8%;
 }
 
-#design,#dev,#product{
+/* #dev,#product{
     padding-left: 20%;
+    position: relative;
+    left: 30%;
+    top: 20%;
+} */
+
+#design{
+    padding-left: 35%;
 }
 
 #group1{
@@ -68,5 +77,77 @@ p{
     padding-right: 1%;
 }
 
+#textarea{
+    align-content: center;
+}
 
+#name, #email{
+    justify-content: center;
+}
+
+.head4{
+    color: white;
+    background: url(c_image.jpg);
+    z-index: -4;
+}
+
+#center{
+    /* position: relative; */
+    left: 35%;
+}
+
+#text{
+    /* position: relative; */
+    left: 35%;
+}
+
+.designAlign{
+    text-align: center;
+    padding-right: 15%;
+    display: none;
+    /* margin-right: 75%; */
+    /* margin-left: 35%; */
+}
+
+.head3{
+    overflow-y: hidden;
+}
+
+/* .devAlign{
+    text-align: center;
+    margin-left: 5%;
+} */
+
+.devIcon{
+    text-align: center;
+    /* float: left; */
+}
+
+.productIcon{
+    padding-left: 10%;
+}
+
+.proAlign{
+    padding-right: 10%;
+}
+
+#product{
+    padding-left: 35%;
+}
+
+/* .designAlign{
+    display: none;
+} */
+
+#headAlign{
+    padding-right: 15%;
+}
+
+.devAlign{
+    display: none;
+}
+
+.proAlign{
+    display: none;
+}
 
