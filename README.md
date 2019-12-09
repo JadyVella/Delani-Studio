@@ -7,3 +7,16 @@ This website speaks about people coming together to share ideas about software d
 # Author Information
 The person who created this file and styled is Felix Ouma
 
+# setup instructions
+
+
+# BDD
+If you want to be a member too, you can fill out the form and automatically you will be a member
+
+# Technologies
+* CSS
+* HTML
+* JavaScript
+* Bootstrap
+* jQuery
+
