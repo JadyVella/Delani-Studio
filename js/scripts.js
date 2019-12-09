@@ -25,4 +25,9 @@ $(document).ready(function() {
             $(".proAlign").hide();
         });
     });
+   
+
+    $("#subscribe").on("click",function() {
+        alert("We have successfully viewed your request. Thank you for trusting us");
+    });
 });

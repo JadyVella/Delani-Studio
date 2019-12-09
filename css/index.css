@@ -68,7 +68,7 @@ p{
     padding-left: 15%;
 }
 
-.jpg2,.jpg3,.jpg4,.jpg5,.jpg6,.jpg7,.jpg8{
+.jpg3,.jpg4,.jpg5,.jpg6,.jpg7,.jpg8{
     padding-left: 1%;
 }
 
@@ -164,20 +164,24 @@ textarea{
 
 #mce-EMAIL{
     background: none;
-    margin-left: 20%;
+    margin-left: 3%;
     width: 500px;
     color: white;
 }
 
 #mce-FNAME{
     background: none;
-    margin-left: 10%;
+    margin-left: 25%;
     width: 500px;
     color: white;
 }
 
 #subscribe{
     position: relative;
+}
+
+footer{
+    text-align: center;
 }
 
 
