@@ -60,13 +60,12 @@ p{
 
 #group1{
     padding-top: 1%;
-    padding-left: 22%;
-
+    padding-left: 15%;
 }
 
 #group2{
     padding-top: 1%;
-    padding-left: 22%;
+    padding-left: 15%;
 }
 
 .jpg2,.jpg3,.jpg4,.jpg5,.jpg6,.jpg7,.jpg8{
@@ -85,10 +84,19 @@ p{
     justify-content: center;
 }
 
-.head4{
+#head4{
     color: white;
     background: url(c_image.jpg);
     z-index: -4;
+    text-align: center;
+}
+
+#email,#name,#textarea{
+    background: none;
+}
+
+.form-goup{
+    text-align: center;
 }
 
 #center{
@@ -150,4 +158,9 @@ p{
 .proAlign{
     display: none;
 }
+
+#social{
+    padding-left: 35%;
+}
+
 
