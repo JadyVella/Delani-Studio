@@ -20,3 +20,8 @@ If you want to be a member too, you can fill out the form and automatically you 
 * Bootstrap
 * jQuery
 
+# Contact Information
+Email: felixouma379@gmail.com
+Cell No.: 0792231660
+Facebook: Jady Vella
+
