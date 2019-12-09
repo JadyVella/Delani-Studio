@@ -28,6 +28,14 @@ $(document).ready(function() {
    
 
     $("#subscribe").on("click",function() {
-        alert("We have successfully viewed your request. Thank you for trusting us");
+        var names = document.getElementById("mce-FNAME").value;
+        alert("Hi "+names+". We have viewed your message and want to thank you for reaching to us");
+
     });
+});
+
+$(document).ready(function() {
+    $(".jpg1").hover(function() {
+        $(".hover1").toggle();
+    })
 });
