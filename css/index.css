@@ -193,7 +193,7 @@ footer{
     margin: 2%;
     background: #333;
     color: white;
-    transform: translate(-10%,-0%);
+    transform: translate(0%,0%);
     overflow-y: hidden;
 }
 
@@ -203,6 +203,7 @@ footer{
     height: 60%;
     overflow: hidden;
     backface-visibility: hidden;
+    margin-left: 30%;
 }
 
 .front,.back{
