@@ -25,12 +25,6 @@ $(document).ready(function() {
             $(".proAlign").hide();
         });
     });
-   
-
-    $("#subscribe").on("click",function() {
-        var names = document.getElementById("mce-FNAME").value;
-        alert("Hi "+names+". We have viewed your message and want to thank you for reaching to us");
-    });
 });
 
 $(document).ready(function() {
