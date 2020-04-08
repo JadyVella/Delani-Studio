@@ -188,10 +188,63 @@ footer{
     text-align: center;
 }
 
-.hover1{
-    
+.middle{
+    text-align: center;
+    margin: 2%;
+    background: #333;
+    color: white;
+    transform: translate(-10%,-0%);
+    overflow-y: hidden;
 }
 
+.card {
+    cursor: pointer;
+    width: 40%;
+    height: 60%;
+    overflow: hidden;
+    backface-visibility: hidden;
+}
 
+.front,.back{
+    backface-visibility: hidden;
+    transition: transform .6s linear;
+}
 
+.front{
+    transform: perspective(600px) rotateY(0deg);
+}
 
+.back{
+    background: #f1f1f1;
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.back-content{
+    color: #dce1e6;
+    text-align: center;
+}
+
+.sn{
+    margin: 20px 0;
+}
+
+.sn a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+.sn a:hover{
+    background: #2c3e50;
+    color: white;
+}
+
+.card:hover > .front{
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.card:hover > .back{
+    transform: perspective(600px) rotateY(0deg);
+}
