@@ -13,7 +13,7 @@ h1{
 }
 
 .head1{
-    background: url(h_img.jpg);
+    background: url(IMG_6377.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,6 +60,7 @@ p{
 
 #design{
     padding-left: 35%;
+    cursor: pointer;
 }
 
 .group1{
@@ -136,6 +137,7 @@ p{
 
 #product{
     padding-left: 35%;
+    cursor: pointer;
 }
 
 /* .designAlign{
@@ -248,4 +250,24 @@ footer{
 
 .card:hover > .back{
     transform: perspective(600px) rotateY(0deg);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly
+}
+
+.bootstrap:hover {
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#dev {
+    cursor: pointer;
 }
